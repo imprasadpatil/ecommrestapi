@@ -10,7 +10,7 @@ let port = process.env.PORT || 2600;
 let cors = require('cors');
 let mongo = require('mongodb');
 let MongoClient = mongo.MongoClient;
-let mongoUrl = process.env.mongocloud;
+let mongoUrl = "mongodb+srv://admin:admin123@cluster0.supjy.mongodb.net/?retryWrites=true&w=majority";
 let bodyParser = require('body-parser')
 let db;
 
